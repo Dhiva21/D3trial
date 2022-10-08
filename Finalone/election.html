@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barchart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <section id="chart">
+       <div>
+        <select name="dropdown" id="drpbtn">
+         <option value="45">Constituencies</option><option value="48">Mao</option><option value="49">Tadubi</option><option value="47">Karong</option><option value="52">Tamei</option><option value="44">Ukhrul</option><option value="46">Saikul</option><option value="50">Kangpokpi</option><option value="43">Phungyar</option><option value="53">Tamenglong</option><option value="1">Khundrakpam</option><option value="51">Saitu</option><option value="16">Sekmai</option><option value="2">Heingang</option><option value="8">Lamlai</option><option value="17">Lamsang</option><option value="9">Thangmeiband</option><option value="3">Khurai</option><option value="15">Wangkhei</option><option value="10">Uripok</option><option value="19">Patsoi</option><option value="18">Konthoujam</option><option value="4">Khetrigao</option><option value="7">Andro</option><option value="14">Yaiskul</option><option value="12">Keisamthong</option><option value="7">Andro</option><option value="54">Nungba</option><option value="5">Thongju</option><option value="13">Singjamei</option><option value="21">Naoriya Pakhanglak*</option><option value="40">Jiribam</option><option value="20">langthabal</option><option value="6">Keirao</option><option value="33">Heirok</option><option value="22">Wangoi</option><option value="25">Oinam</option><option value="32">Wangkhem</option><option value="24">Nambol</option><option value="30">Lilong</option><option value="24">Nambol</option><option value="32">Wangkhem</option><option value="24">Nambol</option><option value="7">Andro</option><option value="6">Keirao</option><option value="31">Thoubal</option><option value="35">Khangabo</option><option value="23">Mayang Imphal</option><option value="22">Wangoi</option><option value="42">Tengnoupal</option><option value="36">Wabgai</option><option value="34">Wangjing Tentha</option><option value="26">Bishenpur</option><option value="28">Thanga</option><option value="57">Henglep</option><option value="37">Kakching</option><option value="38">Hiyanglam</option><option value="56">Thanlon</option><option value="55">Tipaimukh</option><option value="27">Moirang</option><option value="29">Kumbi</option><option value="41">Chandel</option><option value="39">Sugnoo</option><option value="59">Saikot</option><option value="58">Churachandpur</option><option value="60">Singhat</option><option value="2">Heingang</option><option value="11">Sagolband</option>
+        </select>
+        </div>
+        <div>
+            <select name="dropdown" id="drpbtn-1">
+                <option value="KC">KEY CANDIDATES</option>
+                <option value="UP">UttarPradesh</option>
+                <option value="Manipur">Manipur</option>
+                <option value="UK">UttarKand</option>
+                <option value="Maharasthra">Maharasthra</option>
+              </select>
+        </div>
+        <div id='tooltip'></div>
+    
+    <svg width="1200" height="600">
+    </svg>
+    </section>
+
+     <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .rect:hover { opacity: 0.5; }
+      </style>
+    </head>
+    <body>
+      <div style="text-align: center;">
+        <h1>D3.js Barchart</h1>
+        <div id="d3-container" >
+           
+      </div>
+      <svg width="500" height="200">
+    </svg> 
+  
+  
+    
+  </script>
+   
+    <script src="bundle.js"></script>
+    <script src="action.js"></script>
+   <script src="demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+#drpbtn ,#drpbtn-1{
+    font-size: 15px;
+    background-color: #9C9996;
+    padding:   12px 50px 10px 25px;
+
+}
+#drpbtn{
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 70px;
+}
+
+#drpbtn-1
+{
+    position: relative;
+    margin-left: 280px;
+    margin-top: 71px;
+   
+}
+#chart
+{
+    background-color: #C1C5C9 ;
+    border: 0.5px solid black; 
+    border-radius: 1px;
+   
+}
+.yaxis
+{
+    background-color: yellow;
+}
